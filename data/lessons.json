@@ -1,0 +1,925 @@
+{
+  "course": {
+    "name": "Simple Present",
+    "subtitle": "A1 · Everyday English",
+    "description": "Build confident habits with the simple present tense."
+  },
+  "levels": [
+    {
+      "id": 1,
+      "title": "Daily rhythm",
+      "theme": "Everyday routines",
+      "icon": "☀️",
+      "questions": [
+        {
+          "id": "l1-q01",
+          "type": "multipleChoice",
+          "instruction": "Choose the correct verb",
+          "prompt": "She ___ tennis after school.",
+          "questionSpeech": "She, blank, tennis after school. Choose the correct verb: play or plays?",
+          "options": [
+            "play",
+            "plays"
+          ],
+          "answer": "plays",
+          "answerSpeech": "She plays tennis after school.",
+          "explanation": "With she, he, or it, most verbs take an s."
+        },
+        {
+          "id": "l1-q02",
+          "type": "fillBlank",
+          "instruction": "Fill in the missing word",
+          "prompt": "I ___ breakfast at seven.",
+          "questionSpeech": "I, blank, breakfast at seven. Fill in the missing word.",
+          "answer": "eat",
+          "answerSpeech": "I eat breakfast at seven.",
+          "explanation": "Use the base verb with I, you, we, and they."
+        },
+        {
+          "id": "l1-q03",
+          "type": "wordBank",
+          "instruction": "Build the English sentence",
+          "prompt": "Saya membaca buku setiap malam.",
+          "questionSpeech": "Saya membaca buku setiap malam.",
+          "questionLanguage": "id-ID",
+          "answer": "I read a book every night.",
+          "answerSpeech": "I read a book every night.",
+          "words": [
+            "every",
+            "I",
+            "night.",
+            "book",
+            "read",
+            "a"
+          ]
+        },
+        {
+          "id": "l1-q04",
+          "type": "listening",
+          "instruction": "Listen, then build the sentence",
+          "prompt": "",
+          "questionSpeech": "They go to school by bus.",
+          "answer": "They go to school by bus.",
+          "answerSpeech": "They go to school by bus.",
+          "words": [
+            "school",
+            "by",
+            "They",
+            "bus.",
+            "go",
+            "to"
+          ]
+        },
+        {
+          "id": "l1-q05",
+          "type": "matching",
+          "instruction": "Match each routine to its meaning",
+          "questionSpeech": "Match each English daily routine to its Indonesian meaning.",
+          "pairs": [
+            {
+              "left": "wake up",
+              "right": "bangun tidur"
+            },
+            {
+              "left": "get dressed",
+              "right": "berpakaian"
+            },
+            {
+              "left": "have breakfast",
+              "right": "sarapan"
+            },
+            {
+              "left": "go to bed",
+              "right": "pergi tidur"
+            }
+          ]
+        },
+        {
+          "id": "l1-q06",
+          "type": "multipleChoice",
+          "instruction": "Choose the correct verb",
+          "prompt": "He ___ his teeth before bed.",
+          "questionSpeech": "He, blank, his teeth before bed. Choose brush or brushes.",
+          "options": [
+            "brush",
+            "brushes"
+          ],
+          "answer": "brushes",
+          "answerSpeech": "He brushes his teeth before bed.",
+          "explanation": "Add e-s to verbs that end in sh, ch, s, x, or o."
+        },
+        {
+          "id": "l1-q07",
+          "type": "fillBlank",
+          "instruction": "Fill in the missing word",
+          "prompt": "My parents ___ coffee in the morning.",
+          "questionSpeech": "My parents, blank, coffee in the morning. Fill in the missing word.",
+          "answer": "drink",
+          "answerSpeech": "My parents drink coffee in the morning.",
+          "explanation": "My parents is plural, so use the base verb."
+        },
+        {
+          "id": "l1-q08",
+          "type": "wordBank",
+          "instruction": "Build the English sentence",
+          "prompt": "Dia (perempuan) tidak menonton TV saat sarapan.",
+          "questionSpeech": "Dia perempuan tidak menonton TV saat sarapan.",
+          "questionLanguage": "id-ID",
+          "answer": "She does not watch TV at breakfast.",
+          "answerSpeech": "She does not watch TV at breakfast.",
+          "words": [
+            "TV",
+            "She",
+            "at",
+            "does",
+            "breakfast.",
+            "not",
+            "watch"
+          ]
+        },
+        {
+          "id": "l1-q09",
+          "type": "listening",
+          "instruction": "Listen, then build the sentence",
+          "prompt": "",
+          "questionSpeech": "Does your sister walk to school?",
+          "answer": "Does your sister walk to school?",
+          "answerSpeech": "Does your sister walk to school?",
+          "words": [
+            "school?",
+            "Does",
+            "to",
+            "your",
+            "walk",
+            "sister"
+          ]
+        },
+        {
+          "id": "l1-q10",
+          "type": "multipleChoice",
+          "instruction": "Choose the correct helper verb",
+          "prompt": "___ he work on Sundays?",
+          "questionSpeech": "Blank he work on Sundays? Choose do or does.",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "answer": "Does",
+          "answerSpeech": "Does he work on Sundays?",
+          "explanation": "Use does for questions with he, she, or it."
+        },
+        {
+          "id": "l1-q11",
+          "type": "fillBlank",
+          "instruction": "Complete the negative sentence",
+          "prompt": "We ___ not live near the station.",
+          "questionSpeech": "We, blank, not live near the station. Fill in do or does.",
+          "answer": "do",
+          "answerSpeech": "We do not live near the station.",
+          "explanation": "Use do not with we."
+        },
+        {
+          "id": "l1-q12",
+          "type": "matching",
+          "instruction": "Match each frequency word to its meaning",
+          "questionSpeech": "Match each English frequency word to its Indonesian meaning.",
+          "pairs": [
+            {
+              "left": "always",
+              "right": "selalu"
+            },
+            {
+              "left": "usually",
+              "right": "biasanya"
+            },
+            {
+              "left": "sometimes",
+              "right": "kadang-kadang"
+            },
+            {
+              "left": "never",
+              "right": "tidak pernah"
+            }
+          ]
+        },
+        {
+          "id": "l1-q13",
+          "type": "wordBank",
+          "instruction": "Put the words in order to make a question",
+          "prompt": "Apakah kamu membaca sebelum tidur?",
+          "questionSpeech": "Apakah kamu membaca sebelum tidur?",
+          "questionLanguage": "id-ID",
+          "answer": "Do you read before bed?",
+          "answerSpeech": "Do you read before bed?",
+          "words": [
+            "read",
+            "Do",
+            "before",
+            "you",
+            "bed?"
+          ]
+        },
+        {
+          "id": "l1-q14",
+          "type": "listening",
+          "instruction": "Listen, then build the sentence",
+          "prompt": "",
+          "questionSpeech": "I don't eat meat.",
+          "answer": "I don't eat meat.",
+          "answerSpeech": "I don't eat meat.",
+          "words": [
+            "meat.",
+            "I",
+            "eat",
+            "don't"
+          ]
+        },
+        {
+          "id": "l1-q15",
+          "type": "fillBlank",
+          "instruction": "Fill in the missing word",
+          "prompt": "The sun ___ in the east.",
+          "questionSpeech": "The sun, blank, in the east. Fill in the missing word.",
+          "answer": "rises",
+          "answerSpeech": "The sun rises in the east.",
+          "explanation": "The sun is it, so use rises."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Morning routines",
+      "theme": "Start the day",
+      "icon": "🌤️",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "My brother",
+            "baseVerb": "pack",
+            "verb": "packs",
+            "complement": "his lunch before school",
+            "affirmativeSentence": "My brother packs his lunch before school.",
+            "translation": "Kakak laki-laki saya menyiapkan bekalnya sebelum sekolah.",
+            "negativeSentence": "My brother does not pack his lunch at the last minute.",
+            "negativeTranslation": "Kakak laki-laki saya tidak menyiapkan bekalnya pada menit terakhir.",
+            "questionAux": "Does",
+            "questionRest": "my brother pack his lunch before school",
+            "questionSentence": "Does my brother pack his lunch before school?",
+            "negativePrompt": "My brother does not ___ his lunch at the last minute."
+          },
+          {
+            "subject": "We",
+            "baseVerb": "wake up",
+            "verb": "wake up",
+            "complement": "before sunrise",
+            "affirmativeSentence": "We wake up before sunrise.",
+            "translation": "Kami bangun sebelum matahari terbit.",
+            "negativeSentence": "We do not wake up late on school days.",
+            "negativeTranslation": "Kami tidak bangun terlambat pada hari sekolah.",
+            "questionAux": "Do",
+            "questionRest": "we wake up before sunrise",
+            "questionSentence": "Do we wake up before sunrise?",
+            "negativePrompt": "We do not wake up late on school days."
+          },
+          {
+            "subject": "The coffee maker",
+            "baseVerb": "start",
+            "verb": "starts",
+            "complement": "at six o'clock",
+            "affirmativeSentence": "The coffee maker starts at six o'clock.",
+            "translation": "Mesin kopi mulai menyala pukul enam.",
+            "negativeSentence": "The coffee maker does not start during the night.",
+            "negativeTranslation": "Mesin kopi tidak mulai menyala pada malam hari.",
+            "questionAux": "Does",
+            "questionRest": "the coffee maker start at six o'clock",
+            "questionSentence": "Does the coffee maker start at six o'clock?",
+            "negativePrompt": "The coffee maker does not ___ during the night."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "take a shower",
+            "right": "mandi"
+          },
+          {
+            "left": "brush my teeth",
+            "right": "menyikat gigi"
+          },
+          {
+            "left": "get dressed",
+            "right": "berpakaian"
+          },
+          {
+            "left": "make the bed",
+            "right": "merapikan tempat tidur"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "My brother ___ packs his lunch before school.",
+          "answer": "usually",
+          "answerSentence": "My brother usually packs his lunch before school."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Work & study",
+      "theme": "Busy weekdays",
+      "icon": "📚",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "Ava",
+            "baseVerb": "study",
+            "verb": "studies",
+            "complement": "English after dinner",
+            "affirmativeSentence": "Ava studies English after dinner.",
+            "translation": "Ava belajar bahasa Inggris setelah makan malam.",
+            "negativeSentence": "Ava does not study English on the bus.",
+            "negativeTranslation": "Ava tidak belajar bahasa Inggris di dalam bus.",
+            "questionAux": "Does",
+            "questionRest": "Ava study English after dinner",
+            "questionSentence": "Does Ava study English after dinner?",
+            "negativePrompt": "Ava does not ___ English on the bus."
+          },
+          {
+            "subject": "They",
+            "baseVerb": "finish",
+            "verb": "finish",
+            "complement": "their homework before eight",
+            "affirmativeSentence": "They finish their homework before eight.",
+            "translation": "Mereka menyelesaikan pekerjaan rumah sebelum pukul delapan.",
+            "negativeSentence": "They do not finish their homework at school.",
+            "negativeTranslation": "Mereka tidak menyelesaikan pekerjaan rumah di sekolah.",
+            "questionAux": "Do",
+            "questionRest": "they finish their homework before eight",
+            "questionSentence": "Do they finish their homework before eight?",
+            "negativePrompt": "They do not finish their homework at school."
+          },
+          {
+            "subject": "Our teacher",
+            "baseVerb": "check",
+            "verb": "checks",
+            "complement": "our work every morning",
+            "affirmativeSentence": "Our teacher checks our work every morning.",
+            "translation": "Guru kami memeriksa pekerjaan kami setiap pagi.",
+            "negativeSentence": "Our teacher does not check homework on Sunday.",
+            "negativeTranslation": "Guru kami tidak memeriksa pekerjaan rumah pada hari Minggu.",
+            "questionAux": "Does",
+            "questionRest": "our teacher check our work every morning",
+            "questionSentence": "Does our teacher check our work every morning?",
+            "negativePrompt": "Our teacher does not ___ homework on Sunday."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "go to class",
+            "right": "pergi ke kelas"
+          },
+          {
+            "left": "use a computer",
+            "right": "menggunakan komputer"
+          },
+          {
+            "left": "take notes",
+            "right": "mencatat"
+          },
+          {
+            "left": "finish homework",
+            "right": "menyelesaikan pekerjaan rumah"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "Ava ___ studies English after dinner.",
+          "answer": "often",
+          "answerSentence": "Ava often studies English after dinner."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Free time",
+      "theme": "Hobbies & fun",
+      "icon": "🎨",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "Leo",
+            "baseVerb": "play",
+            "verb": "plays",
+            "complement": "chess after lunch",
+            "affirmativeSentence": "Leo plays chess after lunch.",
+            "translation": "Leo bermain catur setelah makan siang.",
+            "negativeSentence": "Leo does not play chess on his phone.",
+            "negativeTranslation": "Leo tidak bermain catur di ponselnya.",
+            "questionAux": "Does",
+            "questionRest": "Leo play chess after lunch",
+            "questionSentence": "Does Leo play chess after lunch?",
+            "negativePrompt": "Leo does not ___ chess on his phone."
+          },
+          {
+            "subject": "I",
+            "baseVerb": "draw",
+            "verb": "draw",
+            "complement": "pictures on weekends",
+            "affirmativeSentence": "I draw pictures on weekends.",
+            "translation": "Saya menggambar pada akhir pekan.",
+            "negativeSentence": "I do not draw pictures at work.",
+            "negativeTranslation": "Saya tidak menggambar di tempat kerja.",
+            "questionAux": "Do",
+            "questionRest": "I draw pictures on weekends",
+            "questionSentence": "Do I draw pictures on weekends?",
+            "negativePrompt": "I do not draw pictures at work."
+          },
+          {
+            "subject": "The band",
+            "baseVerb": "practice",
+            "verb": "practices",
+            "complement": "in the garage every Friday",
+            "affirmativeSentence": "The band practices in the garage every Friday.",
+            "translation": "Grup musik itu berlatih di garasi setiap hari Jumat.",
+            "negativeSentence": "The band does not practice in the library.",
+            "negativeTranslation": "Grup musik itu tidak berlatih di perpustakaan.",
+            "questionAux": "Does",
+            "questionRest": "the band practice in the garage every Friday",
+            "questionSentence": "Does the band practice in the garage every Friday?",
+            "negativePrompt": "The band does not ___ in the library."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "play chess",
+            "right": "bermain catur"
+          },
+          {
+            "left": "read comics",
+            "right": "membaca komik"
+          },
+          {
+            "left": "listen to music",
+            "right": "mendengarkan musik"
+          },
+          {
+            "left": "take photos",
+            "right": "mengambil foto"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "Leo ___ plays chess after lunch.",
+          "answer": "sometimes",
+          "answerSentence": "Leo sometimes plays chess after lunch."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "How often?",
+      "theme": "Frequency & habits",
+      "icon": "🗓️",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "My friend",
+            "baseVerb": "exercise",
+            "verb": "exercises",
+            "complement": "before work every morning",
+            "affirmativeSentence": "My friend exercises before work every morning.",
+            "translation": "Teman saya berolahraga sebelum bekerja setiap pagi.",
+            "negativeSentence": "My friend does not exercise after midnight.",
+            "negativeTranslation": "Teman saya tidak berolahraga setelah tengah malam.",
+            "questionAux": "Does",
+            "questionRest": "my friend exercise before work every morning",
+            "questionSentence": "Does my friend exercise before work every morning?",
+            "negativePrompt": "My friend does not ___ after midnight."
+          },
+          {
+            "subject": "We",
+            "baseVerb": "visit",
+            "verb": "visit",
+            "complement": "our grandparents on Sundays",
+            "affirmativeSentence": "We visit our grandparents on Sundays.",
+            "translation": "Kami mengunjungi kakek dan nenek setiap hari Minggu.",
+            "negativeSentence": "We do not visit our grandparents during the week.",
+            "negativeTranslation": "Kami tidak mengunjungi kakek dan nenek selama hari kerja.",
+            "questionAux": "Do",
+            "questionRest": "we visit our grandparents on Sundays",
+            "questionSentence": "Do we visit our grandparents on Sundays?",
+            "negativePrompt": "We do not visit our grandparents during the week."
+          },
+          {
+            "subject": "Our neighbors",
+            "baseVerb": "walk",
+            "verb": "walk",
+            "complement": "their dog after dinner",
+            "affirmativeSentence": "Our neighbors walk their dog after dinner.",
+            "translation": "Tetangga kami mengajak anjing mereka berjalan-jalan setelah makan malam.",
+            "negativeSentence": "Our neighbors do not walk their dog in the rain.",
+            "negativeTranslation": "Tetangga kami tidak mengajak anjing mereka berjalan-jalan saat hujan.",
+            "questionAux": "Do",
+            "questionRest": "our neighbors walk their dog after dinner",
+            "questionSentence": "Do our neighbors walk their dog after dinner?",
+            "negativePrompt": "Our neighbors do not walk their dog in the rain."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "every day",
+            "right": "setiap hari"
+          },
+          {
+            "left": "once a week",
+            "right": "seminggu sekali"
+          },
+          {
+            "left": "twice a month",
+            "right": "dua kali sebulan"
+          },
+          {
+            "left": "on weekends",
+            "right": "pada akhir pekan"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "My friend ___ exercises before work.",
+          "answer": "usually",
+          "answerSentence": "My friend usually exercises before work."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "Food & kitchen",
+      "theme": "Everyday meals",
+      "icon": "🥑",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "Dad",
+            "baseVerb": "cook",
+            "verb": "cooks",
+            "complement": "dinner at home",
+            "affirmativeSentence": "Dad cooks dinner at home.",
+            "translation": "Ayah memasak makan malam di rumah.",
+            "negativeSentence": "Dad does not cook dinner on Fridays.",
+            "negativeTranslation": "Ayah tidak memasak makan malam pada hari Jumat.",
+            "questionAux": "Does",
+            "questionRest": "Dad cook dinner at home",
+            "questionSentence": "Does Dad cook dinner at home?",
+            "negativePrompt": "Dad does not ___ dinner on Fridays."
+          },
+          {
+            "subject": "They",
+            "baseVerb": "drink",
+            "verb": "drink",
+            "complement": "water with lunch",
+            "affirmativeSentence": "They drink water with lunch.",
+            "translation": "Mereka minum air saat makan siang.",
+            "negativeSentence": "They do not drink soda with lunch.",
+            "negativeTranslation": "Mereka tidak minum soda saat makan siang.",
+            "questionAux": "Do",
+            "questionRest": "they drink water with lunch",
+            "questionSentence": "Do they drink water with lunch?",
+            "negativePrompt": "They do not drink soda with lunch."
+          },
+          {
+            "subject": "The café",
+            "baseVerb": "serve",
+            "verb": "serves",
+            "complement": "fresh soup at noon",
+            "affirmativeSentence": "The café serves fresh soup at noon.",
+            "translation": "Kafe itu menyajikan sup segar pada siang hari.",
+            "negativeSentence": "The café does not serve breakfast at night.",
+            "negativeTranslation": "Kafe itu tidak menyajikan sarapan pada malam hari.",
+            "questionAux": "Does",
+            "questionRest": "the café serve fresh soup at noon",
+            "questionSentence": "Does the café serve fresh soup at noon?",
+            "negativePrompt": "The café does not ___ breakfast at night."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "have lunch",
+            "right": "makan siang"
+          },
+          {
+            "left": "drink water",
+            "right": "minum air"
+          },
+          {
+            "left": "eat vegetables",
+            "right": "makan sayuran"
+          },
+          {
+            "left": "make dinner",
+            "right": "menyiapkan makan malam"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "Dad ___ cooks dinner at home.",
+          "answer": "often",
+          "answerSentence": "Dad often cooks dinner at home."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "title": "Getting around",
+      "theme": "Transport & places",
+      "icon": "🚲",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "The bus",
+            "baseVerb": "stop",
+            "verb": "stops",
+            "complement": "outside the library",
+            "affirmativeSentence": "The bus stops outside the library.",
+            "translation": "Bus itu berhenti di luar perpustakaan.",
+            "negativeSentence": "The bus does not stop at this corner.",
+            "negativeTranslation": "Bus itu tidak berhenti di sudut jalan ini.",
+            "questionAux": "Does",
+            "questionRest": "the bus stop outside the library",
+            "questionSentence": "Does the bus stop outside the library?",
+            "negativePrompt": "The bus does not ___ at this corner."
+          },
+          {
+            "subject": "We",
+            "baseVerb": "ride",
+            "verb": "ride",
+            "complement": "our bikes to the park",
+            "affirmativeSentence": "We ride our bikes to the park.",
+            "translation": "Kami mengendarai sepeda ke taman.",
+            "negativeSentence": "We do not ride our bikes in heavy traffic.",
+            "negativeTranslation": "Kami tidak mengendarai sepeda di lalu lintas padat.",
+            "questionAux": "Do",
+            "questionRest": "we ride our bikes to the park",
+            "questionSentence": "Do we ride our bikes to the park?",
+            "negativePrompt": "We do not ride our bikes in heavy traffic."
+          },
+          {
+            "subject": "Nina",
+            "baseVerb": "walk",
+            "verb": "walks",
+            "complement": "to the market every Saturday",
+            "affirmativeSentence": "Nina walks to the market every Saturday.",
+            "translation": "Nina berjalan kaki ke pasar setiap hari Sabtu.",
+            "negativeSentence": "Nina does not walk to the market at night.",
+            "negativeTranslation": "Nina tidak berjalan kaki ke pasar pada malam hari.",
+            "questionAux": "Does",
+            "questionRest": "Nina walk to the market every Saturday",
+            "questionSentence": "Does Nina walk to the market every Saturday?",
+            "negativePrompt": "Nina does not ___ to the market at night."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "catch the bus",
+            "right": "naik bus"
+          },
+          {
+            "left": "ride a bike",
+            "right": "mengendarai sepeda"
+          },
+          {
+            "left": "walk to work",
+            "right": "berjalan kaki ke kantor"
+          },
+          {
+            "left": "take the train",
+            "right": "naik kereta"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "The bus ___ stops outside the library.",
+          "answer": "usually",
+          "answerSentence": "The bus usually stops outside the library."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "Home & family",
+      "theme": "People at home",
+      "icon": "🏡",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "My grandmother",
+            "baseVerb": "water",
+            "verb": "waters",
+            "complement": "the plants every morning",
+            "affirmativeSentence": "My grandmother waters the plants every morning.",
+            "translation": "Nenek saya menyiram tanaman setiap pagi.",
+            "negativeSentence": "My grandmother does not water the plants after dark.",
+            "negativeTranslation": "Nenek saya tidak menyiram tanaman setelah gelap.",
+            "questionAux": "Does",
+            "questionRest": "my grandmother water the plants every morning",
+            "questionSentence": "Does my grandmother water the plants every morning?",
+            "negativePrompt": "My grandmother does not ___ the plants after dark."
+          },
+          {
+            "subject": "My cousins",
+            "baseVerb": "help",
+            "verb": "help",
+            "complement": "with the dishes after dinner",
+            "affirmativeSentence": "My cousins help with the dishes after dinner.",
+            "translation": "Sepupu-sepupu saya membantu mencuci piring setelah makan malam.",
+            "negativeSentence": "My cousins do not help with the dishes on weekdays.",
+            "negativeTranslation": "Sepupu-sepupu saya tidak membantu mencuci piring pada hari kerja.",
+            "questionAux": "Do",
+            "questionRest": "my cousins help with the dishes after dinner",
+            "questionSentence": "Do my cousins help with the dishes after dinner?",
+            "negativePrompt": "My cousins do not help with the dishes on weekdays."
+          },
+          {
+            "subject": "The baby",
+            "baseVerb": "sleep",
+            "verb": "sleeps",
+            "complement": "after lunch",
+            "affirmativeSentence": "The baby sleeps after lunch.",
+            "translation": "Bayi itu tidur setelah makan siang.",
+            "negativeSentence": "The baby does not sleep in the living room.",
+            "negativeTranslation": "Bayi itu tidak tidur di ruang keluarga.",
+            "questionAux": "Does",
+            "questionRest": "the baby sleep after lunch",
+            "questionSentence": "Does the baby sleep after lunch?",
+            "negativePrompt": "The baby does not ___ in the living room."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "wash the dishes",
+            "right": "mencuci piring"
+          },
+          {
+            "left": "feed the cat",
+            "right": "memberi makan kucing"
+          },
+          {
+            "left": "tidy the room",
+            "right": "merapikan kamar"
+          },
+          {
+            "left": "water the plants",
+            "right": "menyiram tanaman"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "My grandmother ___ waters the plants every morning.",
+          "answer": "always",
+          "answerSentence": "My grandmother always waters the plants every morning."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "Questions & answers",
+      "theme": "Do, does & don't",
+      "icon": "💬",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "He",
+            "baseVerb": "fix",
+            "verb": "fixes",
+            "complement": "computers at work",
+            "affirmativeSentence": "He fixes computers at work.",
+            "translation": "Dia memperbaiki komputer di tempat kerja.",
+            "negativeSentence": "He does not fix phones at work.",
+            "negativeTranslation": "Dia tidak memperbaiki ponsel di tempat kerja.",
+            "questionAux": "Does",
+            "questionRest": "he fix computers at work",
+            "questionSentence": "Does he fix computers at work?",
+            "negativePrompt": "He does not ___ phones at work."
+          },
+          {
+            "subject": "You",
+            "baseVerb": "need",
+            "verb": "need",
+            "complement": "a pass to enter the gym",
+            "affirmativeSentence": "You need a pass to enter the gym.",
+            "translation": "Kamu memerlukan kartu izin untuk masuk ke pusat kebugaran.",
+            "negativeSentence": "You do not need a pass to use the park.",
+            "negativeTranslation": "Kamu tidak memerlukan kartu izin untuk menggunakan taman.",
+            "questionAux": "Do",
+            "questionRest": "you need a pass to enter the gym",
+            "questionSentence": "Do you need a pass to enter the gym?",
+            "negativePrompt": "You do not need a pass to use the park."
+          },
+          {
+            "subject": "The class",
+            "baseVerb": "start",
+            "verb": "starts",
+            "complement": "at nine o'clock",
+            "affirmativeSentence": "The class starts at nine o'clock.",
+            "translation": "Kelas itu dimulai pukul sembilan.",
+            "negativeSentence": "The class does not start at eight o'clock.",
+            "negativeTranslation": "Kelas itu tidak dimulai pukul delapan.",
+            "questionAux": "Does",
+            "questionRest": "the class start at nine o'clock",
+            "questionSentence": "Does the class start at nine o'clock?",
+            "negativePrompt": "The class does not ___ at eight o'clock."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "work late",
+            "right": "bekerja sampai larut"
+          },
+          {
+            "left": "need a ticket",
+            "right": "memerlukan tiket"
+          },
+          {
+            "left": "have a break",
+            "right": "beristirahat"
+          },
+          {
+            "left": "close at six",
+            "right": "tutup pukul enam"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "He ___ fixes computers at work.",
+          "answer": "usually",
+          "answerSentence": "He usually fixes computers at work."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "Everyday English",
+      "theme": "A little of everything",
+      "icon": "✨",
+      "recipe": {
+        "examples": [
+          {
+            "subject": "Emma",
+            "baseVerb": "carry",
+            "verb": "carries",
+            "complement": "a notebook in her bag",
+            "affirmativeSentence": "Emma carries a notebook in her bag.",
+            "translation": "Emma membawa buku catatan di dalam tasnya.",
+            "negativeSentence": "Emma does not carry a laptop on weekends.",
+            "negativeTranslation": "Emma tidak membawa laptop pada akhir pekan.",
+            "questionAux": "Does",
+            "questionRest": "Emma carry a notebook in her bag",
+            "questionSentence": "Does Emma carry a notebook in her bag?",
+            "negativePrompt": "Emma does not ___ a laptop on weekends."
+          },
+          {
+            "subject": "They",
+            "baseVerb": "meet",
+            "verb": "meet",
+            "complement": "at the café after class",
+            "affirmativeSentence": "They meet at the café after class.",
+            "translation": "Mereka bertemu di kafe setelah kelas.",
+            "negativeSentence": "They do not meet at the café on Mondays.",
+            "negativeTranslation": "Mereka tidak bertemu di kafe pada hari Senin.",
+            "questionAux": "Do",
+            "questionRest": "they meet at the café after class",
+            "questionSentence": "Do they meet at the café after class?",
+            "negativePrompt": "They do not meet at the café on Mondays."
+          },
+          {
+            "subject": "My family",
+            "baseVerb": "watch",
+            "verb": "watches",
+            "complement": "a film on Friday nights",
+            "affirmativeSentence": "My family watches a film on Friday nights.",
+            "translation": "Keluarga saya menonton film pada Jumat malam.",
+            "negativeSentence": "My family does not watch films during breakfast.",
+            "negativeTranslation": "Keluarga saya tidak menonton film saat sarapan.",
+            "questionAux": "Does",
+            "questionRest": "my family watch a film on Friday nights",
+            "questionSentence": "Does my family watch a film on Friday nights?",
+            "negativePrompt": "My family does not ___ films during breakfast."
+          }
+        ],
+        "vocabulary": [
+          {
+            "left": "say hello",
+            "right": "menyapa"
+          },
+          {
+            "left": "make a plan",
+            "right": "membuat rencana"
+          },
+          {
+            "left": "share a meal",
+            "right": "makan bersama"
+          },
+          {
+            "left": "go home",
+            "right": "pulang ke rumah"
+          }
+        ],
+        "frequencyPractice": {
+          "prompt": "My family ___ watches a film on Friday nights.",
+          "answer": "sometimes",
+          "answerSentence": "My family sometimes watches a film on Friday nights."
+        }
+      }
+    }
+  ]
+}

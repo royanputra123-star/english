@@ -1,0 +1,11 @@
+{
+  "name": "simple-present-learning-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A gamified browser app for practicing the simple present tense.",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "test": "node --test"
+  }
+}
